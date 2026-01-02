@@ -1,0 +1,13 @@
+{
+  "name": "API Contract Validation Hook",
+  "version": "1.0.0",
+  "description": "Validates API implementations against OpenAPI/Postman contracts and triggers testing workflows",
+  "when": {
+    "type": "fileEdited",
+    "patterns": ["**/api-contracts/*.yaml", "**/api-contracts/*.json", "**/*api*.ts", "**/*api*.rs", "**/routes/**/*", "**/controllers/**/*"]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Activate API Contract Validation using #api-contract-steering. For any API-related file changes: 1) Validate against OpenAPI specification 2) Run Postman collection tests 3) Check DeFi security requirements if applicable 4) Verify blockchain compliance for wallet operations 5) Update agent communication protocols 6) Generate audit trail for changes. Operate in full auto-mode within sandbox constraints."
+  }
+}

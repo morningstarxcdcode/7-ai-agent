@@ -1,0 +1,8 @@
+# Postman Collections Directory
+
+This directory will contain Postman collection files for blockchain wallet platform testing.
+
+Expected files from "7 agent after rnach hacks" workspace:
+- contract-testing.postman_collection.json
+- integration-testing.postman_collection.json
+- mock-data-generation.postman_collection.json

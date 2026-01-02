@@ -1,0 +1,13 @@
+{
+  "name": "Build Test Agent",
+  "version": "1.0.0",
+  "description": "Runs tests, linters, and build steps automatically in sandbox. Returns failures for auto-fixing.",
+  "when": {
+    "type": "fileEdited",
+    "patterns": ["*.rs", "*.ts", "*.js", "*.sol", "Cargo.toml", "package.json"]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Activate Build Test Agent in AUTO MODE. Use #autonomous-coding-steering. Automatically run: 1) cargo test for Rust code 2) npm test for TypeScript/JavaScript 3) cargo clippy for linting 4) cargo fmt for formatting 5) Type checking. Report all failures with detailed analysis. No human approval needed - execute immediately."
+  }
+}

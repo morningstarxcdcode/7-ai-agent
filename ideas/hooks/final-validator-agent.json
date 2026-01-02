@@ -1,0 +1,12 @@
+{
+  "name": "Final Validator Agent",
+  "version": "1.0.0",
+  "description": "Final quality gate ensuring code meets production and industry standards before marking DONE.",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Activate Final Validator Agent in AUTO MODE. Use #autonomous-coding-steering. Perform final validation: 1) Architecture review for scalability 2) Performance benchmarks 3) Security compliance check 4) Documentation completeness 5) Test coverage >80% 6) No TODOs or FIXMEs remaining. Only mark DONE when ALL criteria pass. Provide comprehensive quality report."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Code Review Hook",
+  "version": "1.0.0",
+  "description": "Triggers code analysis and review for edited files with security and quality focus",
+  "when": {
+    "type": "fileEdited",
+    "patterns": ["*.sol", "*.ts", "*.js", "*.py", "*.rs", "*.go"]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Activate Code Review Agent with the following context: Use deep-research-agent-steering rules for code analysis. Review the edited file for security vulnerabilities, code quality issues, and best practices. Focus on: 1) Security vulnerabilities 2) Logic errors 3) Performance issues 4) Code style and maintainability. Provide structured analysis with specific line references and improvement suggestions. Never output corrected code - only analysis and human-reviewable recommendations."
+  }
+}

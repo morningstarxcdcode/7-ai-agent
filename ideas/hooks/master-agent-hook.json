@@ -1,0 +1,12 @@
+{
+  "name": "Master Agent Hook",
+  "version": "2.0.0",
+  "description": "Universal hook that routes requests to appropriate specialized agents including autonomous coding capabilities",
+  "when": {
+    "type": "promptSubmit"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Analyze the user's request and route to appropriate specialized agent: 1) For code generation, testing, or autonomous development: Use #autonomous-coding-steering 2) For blockchain wallet, transactions, or Web3 features: Use #blockchain-wallet-steering 3) For debugging, investigation, or research: Use #researcher-agent-steering 4) For security analysis, token validation, or transaction review: Use #security-validator-steering 5) For bug reports, test failures, or quality issues: Use #qa-triage-agent-steering. Always follow deep-research-agent-steering core rules. For autonomous coding: operate in full auto-mode without human approval within sandbox constraints."
+  }
+}

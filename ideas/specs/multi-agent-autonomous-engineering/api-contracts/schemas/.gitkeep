@@ -1,0 +1,9 @@
+# JSON Schema Directory
+
+This directory will contain JSON schema definitions for multi-agent autonomous engineering data models.
+
+Expected files:
+- agent-message.schema.json
+- workflow-state.schema.json
+- audit-entry.schema.json
+- security-assessment.schema.json

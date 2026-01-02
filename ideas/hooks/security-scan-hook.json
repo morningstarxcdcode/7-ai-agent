@@ -1,0 +1,12 @@
+{
+  "name": "Security Scan Hook",
+  "version": "1.0.0", 
+  "description": "Triggers security validation for on-chain transactions and smart contracts",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Activate Security Validator Agent with the following context: Use #security-validator-steering for comprehensive security analysis. Follow deep-research-agent-steering core rules. Analyze contracts, tokens, and transactions for security risks. Provide risk ratings, slippage estimates, and security recommendations. Never execute transactions - only provide human-reviewable security assessments and approval cards."
+  }
+}

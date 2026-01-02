@@ -1,0 +1,8 @@
+# OpenAPI Specifications Directory
+
+This directory will contain OpenAPI 3.0 specifications for DeFi automation platform APIs.
+
+Expected files:
+- defi-core-api.yaml
+- security-validation-api.yaml  
+- agent-coordination-api.yaml

@@ -1,0 +1,8 @@
+# JSON Schema Directory
+
+This directory will contain JSON schema definitions for DeFi automation platform data models.
+
+Expected files:
+- defi-transaction.schema.json
+- security-assessment.schema.json
+- agent-message.schema.json

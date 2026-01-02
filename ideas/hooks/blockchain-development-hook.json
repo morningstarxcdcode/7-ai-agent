@@ -1,0 +1,13 @@
+{
+  "name": "Blockchain Development Hook",
+  "version": "1.0.0",
+  "description": "Specialized hook for blockchain wallet platform development with autonomous coding and security validation",
+  "when": {
+    "type": "fileEdited",
+    "patterns": ["*.rs", "*.sol", "Cargo.toml", "contracts/**/*", "src/wallet/**/*", "src/blockchain/**/*"]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Activate Blockchain Development Agent using #blockchain-wallet-steering and #autonomous-coding-steering. For Rust blockchain code: 1) Automatically run cargo test and cargo clippy 2) Validate private key security (never server-side) 3) Check for reentrancy and overflow vulnerabilities 4) Ensure proper error handling 5) Auto-fix issues until all tests pass. For Solidity contracts: validate access controls, gas optimization, and security patterns. Operate in full auto-mode within sandbox."
+  }
+}

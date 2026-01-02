@@ -1,0 +1,9 @@
+# OpenAPI Specifications Directory
+
+This directory will contain OpenAPI 3.0 specifications for blockchain wallet platform APIs.
+
+Expected files:
+- wallet-core-api.yaml
+- authentication-api.yaml
+- transaction-api.yaml
+- business-card-api.yaml

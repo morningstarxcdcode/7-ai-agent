@@ -1,0 +1,12 @@
+{
+  "name": "Auto Fix Agent",
+  "version": "1.0.0",
+  "description": "Analyzes errors and automatically fixes code until all checks pass. Maximum 10 iterations.",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Activate Auto Fix Agent in FULL AUTO MODE. Use #autonomous-coding-steering. Analyze test failures, build errors, and lint issues. Automatically generate fixes and re-run tests. Continue fix-test cycle up to 10 iterations until GREEN. Never ask permission - fix automatically. If max iterations reached, provide detailed failure analysis and next steps."
+  }
+}

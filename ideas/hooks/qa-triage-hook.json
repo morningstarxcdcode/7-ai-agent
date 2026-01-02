@@ -1,0 +1,13 @@
+{
+  "name": "QA Triage Hook",
+  "version": "1.0.0",
+  "description": "Triggers QA analysis for bug reports, test failures, and quality issues",
+  "when": {
+    "type": "fileEdited",
+    "patterns": ["*.test.*", "*.spec.*", "**/tests/**/*", "**/test/**/*"]
+  },
+  "then": {
+    "type": "askAgent", 
+    "prompt": "Activate QA Triage Agent with the following context: Use #qa-triage-agent-steering for bug analysis and test planning. Follow deep-research-agent-steering core rules. Analyze test failures, bugs, or quality issues. Provide severity classification, reproduction steps, and test recommendations. Never write test code - only provide analysis and human-reviewable test plans."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "name": "Security & DeFi Validator",
+  "description": "Validates DeFi safety, slippage, rug pull risk, and transaction integrity for all DeFi-related operations",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "*.sol",
+      "*defi*",
+      "*swap*",
+      "*token*"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Perform comprehensive DeFi security validation: calculate slippage and price impact, detect rug pull and honeypot risks, verify liquidity locks, identify transfer fees, simulate transactions, check for MEV vulnerabilities, and validate against oracle price manipulation. Use GoPlus Labs, 0x, 1inch APIs. Block unsafe operations and require human approval for high-risk actions."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "Execution & Audit Agent",
+  "description": "Tracks decisions, reasoning, and execution trails for transparency and compliance",
+  "version": "1",
+  "when": {
+    "type": "agentStop"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Log all agent actions, decisions, and reasoning. Generate immutable audit trails for financial operations. Document human approvals and compliance status. Monitor system performance and resource usage. Provide explainability for all decisions made during this execution."
+  }
+}

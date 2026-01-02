@@ -1,0 +1,9 @@
+# OpenAPI Specifications Directory
+
+This directory will contain OpenAPI 3.0 specifications for multi-agent autonomous engineering APIs.
+
+Expected files:
+- agent-coordination-api.yaml
+- workflow-management-api.yaml
+- audit-trail-api.yaml
+- security-validation-api.yaml

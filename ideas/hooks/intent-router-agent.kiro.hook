@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "Intent Router Agent",
+  "description": "Analyzes user intent and activates appropriate agents dynamically for autonomous multi-agent workflows",
+  "version": "1",
+  "when": {
+    "type": "promptSubmit"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Analyze the user's intent and route to the appropriate agents from the 7-agent system: Intent Router, Product Architect, Code Engineer, Test Agent, Security Validator, Research Agent, or Audit Agent. Consider the request type (build/create → Architect + Code + Test, fix/debug → Code + Auto-Fix, DeFi/finance → Security Validator, research → Research Agent, non-technical → Architect + Explainability). Operate in autonomous mode within sandbox constraints."
+  }
+}

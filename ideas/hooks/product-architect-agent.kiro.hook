@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "name": "Product Architect Agent",
+  "description": "Designs system architecture, UX flows, and technical specifications when design or build requests are detected",
+  "version": "1",
+  "when": {
+    "type": "fileCreated",
+    "patterns": [
+      "*.md",
+      "*.json",
+      "requirements.md",
+      "design.md"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Analyze the created file for design requirements. If it contains system requirements, user stories, or architectural needs, generate comprehensive system architecture including DeFi-specific patterns, Web2 compatibility, UX flows, and technical specifications. Document all design decisions with rationale."
+  },
+  "workspaceFolderName": "7 agent after rnach hacks",
+  "shortName": "product-architect-agent"
+}

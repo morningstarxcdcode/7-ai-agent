@@ -1,0 +1,9 @@
+# JSON Schema Directory
+
+This directory will contain JSON schema definitions for blockchain wallet platform data models.
+
+Expected files:
+- wallet-operation.schema.json
+- transaction-metadata.schema.json
+- oauth-session.schema.json
+- business-card.schema.json

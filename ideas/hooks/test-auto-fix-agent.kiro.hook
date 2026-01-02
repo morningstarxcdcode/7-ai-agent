@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "name": "Test & Auto-Fix Agent",
+  "description": "Runs tests and automatically fixes errors until all tests pass",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "*.test.ts",
+      "*.test.js",
+      "*.spec.ts",
+      "*.spec.js"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Run all tests and analyze any failures. Generate comprehensive test suites (unit, integration, property-based) to achieve 80% coverage. Debug issues with root cause analysis and apply fixes iteratively. Continue auto-fix loops until all tests pass or escalation threshold is reached."
+  }
+}

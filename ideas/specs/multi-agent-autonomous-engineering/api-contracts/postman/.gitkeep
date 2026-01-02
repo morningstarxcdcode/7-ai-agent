@@ -1,0 +1,8 @@
+# Postman Collections Directory
+
+This directory will contain Postman collection files for multi-agent autonomous engineering testing.
+
+Expected files from "7 agent after rnach hacks" workspace:
+- intro-to-writing-tests.postman_collection.json
+- regression-testing.postman_collection.json
+- performance-testing.postman_collection.json

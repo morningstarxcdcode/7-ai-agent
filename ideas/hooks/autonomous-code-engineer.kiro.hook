@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "name": "Autonomous Code Engineer",
+  "description": "Writes production-grade code autonomously when code files are created or modified",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "*.ts",
+      "*.js",
+      "*.py",
+      "*.sol",
+      "*.go",
+      "*.rs"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Analyze the code changes and generate or refactor code following clean architecture principles. Ensure production-ready quality, proper error handling, and security best practices. Operate within sandbox constraints with no access to production systems. Integrate with version control and maintain code history."
+  }
+}

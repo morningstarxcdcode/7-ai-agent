@@ -1,0 +1,12 @@
+{
+  "name": "Security Hardening Agent",
+  "version": "1.0.0",
+  "description": "Scans for vulnerabilities and applies secure patterns automatically after code passes tests.",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Activate Security Hardening Agent in AUTO MODE. Use #security-validator-steering and #autonomous-coding-steering. Scan code for: 1) Input validation issues 2) Authentication bypasses 3) SQL injection vectors 4) XSS vulnerabilities 5) Blockchain-specific issues (reentrancy, overflow) 6) Private key exposure. Automatically apply security fixes. Block deployment if critical issues found."
+  }
+}

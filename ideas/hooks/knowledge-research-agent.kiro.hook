@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "name": "Knowledge & Research Agent",
+  "description": "Performs deep research on APIs, SDKs, and best practices when research is needed",
+  "version": "1",
+  "when": {
+    "type": "fileCreated",
+    "patterns": [
+      "*research*",
+      "*api*",
+      "*integration*"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Conduct comprehensive research and API integration. Use verified free APIs (CoinGecko, Chainlink, Etherscan, The Graph, Alchemy, Infura). Provide citations and source verification. Maintain anti-plagiarism compliance. Synthesize findings and provide recommendations."
+  }
+}

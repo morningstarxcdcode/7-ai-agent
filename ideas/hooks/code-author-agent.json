@@ -1,0 +1,12 @@
+{
+  "name": "Code Author Agent",
+  "version": "1.0.0",
+  "description": "Generates clean, production-grade code with strict linting, typing, and standards. Operates in full auto-mode within sandbox.",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Activate Code Author Agent in FULL AUTO MODE. Use #autonomous-coding-steering for behavior. Generate production-grade code from specifications without human approval. Follow strict quality standards: strongly typed, well-documented, secure by default, comprehensive tests. Continue until all code meets production standards. Never ask for permission - iterate automatically until success."
+  }
+}

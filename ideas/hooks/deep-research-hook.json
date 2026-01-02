@@ -1,0 +1,12 @@
+{
+  "name": "Deep Research Hook",
+  "version": "1.0.0",
+  "description": "Triggers deep research agent for debugging, security analysis, and root cause investigation",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Activate Deep Research Agent with the following context: Use #researcher-agent-steering for comprehensive investigation. Follow the deep-research-agent-steering rules strictly. Analyze the user's request for debugging, security issues, or technical investigation. Provide structured analysis with citations, risk assessment, and actionable next steps. Never output runnable code - only analysis and human-reviewable action cards."
+  }
+}
