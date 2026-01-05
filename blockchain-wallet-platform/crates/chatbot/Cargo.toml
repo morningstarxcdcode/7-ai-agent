@@ -1,0 +1,18 @@
+[package]
+name = "chatbot"
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+axum.workspace = true
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+anyhow.workspace = true
+reqwest = { version = "0.11", features = ["json"] }
+
+[[bin]]
+name = "chatbot"
+path = "src/main.rs"
