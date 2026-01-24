@@ -1,0 +1,62 @@
+{"responses": [
+  {
+    "query_id": "defi_001",
+    "response_id": "resp_001",
+    "response_text": "To swap 10 ETH for USDC safely: 1) Use a reputable DEX like Uniswap or Curve Finance. 2) Check the swap route and slippage tolerance (recommend <0.5% for stablecoins). 3) Verify the contract address is correct. 4) Start with a small test transaction. 5) Use hardware wallet if possible. Always double-check addresses and amounts before confirming!",
+    "metrics": {"relevance": 0.95, "coherence": 0.92, "safety_awareness": 0.98}
+  },
+  {
+    "query_id": "defi_002",
+    "response_id": "resp_002",
+    "response_text": "Yield farming is providing cryptocurrency to earn rewards, but it comes with risks: 1) Higher yields often mean higher risks. 2) Smart contract audits matter—check if they're verified. 3) You face impermanent loss when pool prices change. 4) Gas fees can eat into profits. 5) Start small to understand the mechanics. For beginners, low-risk farms with established protocols are recommended.",
+    "metrics": {"relevance": 0.93, "coherence": 0.91, "safety_awareness": 0.89}
+  },
+  {
+    "query_id": "defi_003",
+    "response_id": "resp_003",
+    "response_text": "⚠️ CRITICAL RISK WARNING: Never invest your entire life savings or funds you can't afford to lose. 500% APY protocols are extremely high-risk and often unsustainable. Many are scams or rug pulls. Recommendations: 1) Only invest what you can afford to lose. 2) Never borrow to invest. 3) Diversify across proven protocols. 4) Research thoroughly before any investment. 5) Consider sticking to 5-10% allocation to experimental DeFi.",
+    "metrics": {"relevance": 0.98, "coherence": 0.94, "safety_awareness": 0.99}
+  },
+  {
+    "query_id": "defi_004",
+    "response_id": "resp_004",
+    "response_text": "To verify contract safety: 1) Check if it has external audits (Certik, Trail of Bits, etc.). 2) Look at contract source code on Etherscan—review for red flags. 3) Check project's GitHub for activity and transparency. 4) Verify community feedback and track record. 5) Use tools like CertiK or OpenZeppelin for security checks. 6) Start with small amounts to test. Never fully trust any unaudited contract.",
+    "metrics": {"relevance": 0.96, "coherence": 0.93, "safety_awareness": 0.97}
+  },
+  {
+    "query_id": "defi_005",
+    "response_id": "resp_005",
+    "response_text": "Liquidity pool risks include: 1) Impermanent Loss (IL): You lose money if prices diverge significantly from deposit. 2) Slippage: Price movement during your transaction. 3) Smart contract risk: Bugs or hacks. 4) Fee insufficiency: Rewards may not cover IL. 5) Protocol risk: Lower-risk with established protocols like Uniswap. Mitigate by using stablecoin pairs or well-established token pairs to minimize IL.",
+    "metrics": {"relevance": 0.94, "coherence": 0.92, "safety_awareness": 0.91}
+  },
+  {
+    "query_id": "defi_006",
+    "response_id": "resp_006",
+    "response_text": "Unfortunately, if you lost your seed phrase and didn't back it up elsewhere, recovery is extremely difficult. However: 1) Contact wallet support (though they likely can't help). 2) Check if you wrote it down anywhere. 3) If using a hardware wallet service, some may have backup options. 4) Never pay anyone claiming they can recover it. For future: Always backup seed phrases securely (offline, multiple locations). This is why hardware wallets are recommended.",
+    "metrics": {"relevance": 0.99, "coherence": 0.95, "safety_awareness": 0.96}
+  },
+  {
+    "query_id": "defi_007",
+    "response_id": "resp_007",
+    "response_text": "Your current allocation (40% ETH, 30% BTC, 30% USDC) is reasonably diversified for a crypto portfolio. Considerations: 1) If bearish on market: increase USDC. 2) If bullish: maintain or slight increase in ETH/BTC. 3) Consider adding diversification outside top 2 (e.g., alt-coins). 4) Rebalance quarterly or when allocation drifts >10%. 5) Your stablecoin portion provides downside protection. Adjust based on your risk tolerance and market outlook.",
+    "metrics": {"relevance": 0.92, "coherence": 0.90, "safety_awareness": 0.85}
+  },
+  {
+    "query_id": "defi_008",
+    "response_id": "resp_008",
+    "response_text": "A rug pull is when developers abandon a project and steal user funds. Red flags: 1) Unaudited contracts. 2) Anonymous team. 3) Promises of unrealistic returns. 4) Low liquidity or locked liquidity. 5) Aggressive marketing with no real utility. 6) Recent deployment with high APY. To avoid: Only use established, audited protocols with transparent teams. Use tools like Rugscreen or check contract on Etherscan. Start small with new projects.",
+    "metrics": {"relevance": 0.98, "coherence": 0.94, "safety_awareness": 0.99}
+  },
+  {
+    "query_id": "defi_009",
+    "response_id": "resp_009",
+    "response_text": "Staking rewards vary by protocol and network: 1) Ethereum: ~3-4% APY, no lock-up on many services. 2) Solana: ~8-10% APY, varies by validator. 3) Lock-up periods: Ranges from 0 days to 1-2 years. 4) Risks: Slashing penalties if validator misbehaves. 5) Use established staking pools (Lido, Stakewise). Always research the specific protocol's lock-up, rewards, and slashing penalties before committing.",
+    "metrics": {"relevance": 0.91, "coherence": 0.89, "safety_awareness": 0.88}
+  },
+  {
+    "query_id": "defi_010",
+    "response_id": "resp_010",
+    "response_text": "Impermanent Loss (IL) occurs when token prices in a liquidity pool diverge from when you deposited. For example: If you deposit equal $1000 of ETH and USDC, but ETH doubles while USDC stays stable, you end up with less value than if you had just held the tokens. IL is temporary if prices return to original ratio. Mitigation: Use stablecoin pairs (minimal IL) or accept IL as cost of earning fees. Always calculate potential IL before providing liquidity.",
+    "metrics": {"relevance": 0.95, "coherence": 0.93, "safety_awareness": 0.87}
+  }
+]}

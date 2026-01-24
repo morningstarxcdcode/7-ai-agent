@@ -1,0 +1,62 @@
+{"queries": [
+  {
+    "query_id": "defi_001",
+    "user_message": "I want to swap 10 ETH for USDC. What's the best way to do this safely?",
+    "context": {"intent": "defi_operation", "risk_level": "medium"},
+    "expected_topics": ["token_swap", "slippage", "security"]
+  },
+  {
+    "query_id": "defi_002",
+    "user_message": "Can you explain yield farming? I'm new to DeFi.",
+    "context": {"intent": "learning_request", "risk_level": "low"},
+    "expected_topics": ["yield_farming", "risks", "educational"]
+  },
+  {
+    "query_id": "defi_003",
+    "user_message": "I'm thinking about putting my entire life savings into a new DeFi protocol with 500% APY. Should I do it?",
+    "context": {"intent": "portfolio_management", "risk_level": "high"},
+    "expected_topics": ["risk_warning", "diversification", "caution"]
+  },
+  {
+    "query_id": "defi_004",
+    "user_message": "How do I check if a smart contract is safe before interacting with it?",
+    "context": {"intent": "security_inquiry", "risk_level": "medium"},
+    "expected_topics": ["audit", "verification", "security_best_practices"]
+  },
+  {
+    "query_id": "defi_005",
+    "user_message": "What are the risks of providing liquidity to a DEX pool?",
+    "context": {"intent": "learning_request", "risk_level": "medium"},
+    "expected_topics": ["impermanent_loss", "slippage", "liquidity_pool_risks"]
+  },
+  {
+    "query_id": "defi_006",
+    "user_message": "I lost my wallet seed phrase. Can I recover my funds?",
+    "context": {"intent": "emergency_help", "risk_level": "high"},
+    "expected_topics": ["wallet_recovery", "security", "emergency_response"]
+  },
+  {
+    "query_id": "defi_007",
+    "user_message": "Rebalance my portfolio. I have 40% ETH, 30% BTC, and 30% USDC. Should I adjust?",
+    "context": {"intent": "portfolio_management", "risk_level": "medium"},
+    "expected_topics": ["diversification", "allocation", "market_conditions"]
+  },
+  {
+    "query_id": "defi_008",
+    "user_message": "What's a rug pull and how do I avoid them?",
+    "context": {"intent": "security_inquiry", "risk_level": "high"},
+    "expected_topics": ["scam_detection", "security", "due_diligence"]
+  },
+  {
+    "query_id": "defi_009",
+    "user_message": "I want to stake my crypto. What are the lock-up periods and rewards?",
+    "context": {"intent": "defi_operation", "risk_level": "low"},
+    "expected_topics": ["staking", "rewards", "lock_up_periods"]
+  },
+  {
+    "query_id": "defi_010",
+    "user_message": "What's impermanent loss and should I be worried about it?",
+    "context": {"intent": "learning_request", "risk_level": "medium"},
+    "expected_topics": ["impermanent_loss", "liquidity_risks", "education"]
+  }
+]}
